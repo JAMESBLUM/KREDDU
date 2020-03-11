@@ -1,0 +1,81 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family: verdana;
+  background: #ccedff;
+  overflow:hidden;
+}
+.pollito .frito td{
+ text-align: center;
+}
+/*COLOR DE FONDO ROSA*/
+.pollito{
+ width: 250px;
+ height: 790px;
+ background:#ffccfd ;
+ border-radius: 10px;
+}
+/*Filas MATERIAS*/
+.pollito tr{
+  width: auto;
+  height: 75px
+}
+/*Celda MATERIAs*/
+.pollito td{
+  font-size: 35px;
+  border-color:#ffccfd;
+  width: 250px;
+  height: 900px:
+}
+/*Alinea las materias al centro*/
+.pollito .mexicana{
+  text-align: center;
+}
+.pollito .mexicana td{
+  font-size: 50px;
+}
+.pollito a{
+  text-decoration: none;
+  font-size:15px;
+  line-height: 28px ;
+  color: #80a000;
+}
+.pollito a:hover{
+  color:#afdb00;
+}
+/*Padding me ayuda a acomodar el objeto, el 50% lo pone en el centro*/
+.pollito iframe{
+  margin:35px;
+  width: 700px;
+  height: 455px;
+  position: absolute;
+  left: calc(27% + 50px);
+}
+.pollito h1{
+  /*le agrego un margen al encabezado*/
+  margin:-250px;
+  position:absolute;
+  padding-top:-50%;
+  text-align:justify;
+  font-size:30px;
+  /* el px los desplaza a la derecha o a la izquierda*/
+  left:calc(36% + 400px);
+}
+.pollito p{
+  /*me sube o baja el texto*/
+  margin:-200px;
+  position:absolute;
+  padding-top:-50%;
+  text-align:justify;
+  font-size:25px;
+  /* el px los desplaza a la derecha o a la izquierda*/
+  left:calc(30% + 90px);
+}
+
+.pollito .Naranja img{
+  margin:-700px;
+ width: 160px;
+ height: auto;
+ position:absolute;
+ left:calc(86% + 700px);
+}

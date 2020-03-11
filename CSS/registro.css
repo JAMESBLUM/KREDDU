@@ -3,6 +3,17 @@ margin:0;
 padding:0;
 font-family:verdana;
 }
+video{
+  position: fixed;
+  min-width:100%;
+  min-height:100%;
+  top:50%;
+  left:50%;
+/*tarnsform hara que nuestro video siempre este centrado*/
+  transform: translateX(-50%) translateY(-50%);
+  /*z-index con esa propiedad en -1 manda al video hasta el fondo*/
+  z-index:-1;
+}
 .login-box{
   /*CREA EL RECTANGULO*/
   width: 320px;

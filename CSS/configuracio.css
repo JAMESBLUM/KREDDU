@@ -1,0 +1,41 @@
+body{
+  font-family: verdana;
+  background:#ccedff;
+  overflow: hidden;
+}
+
+.gatito{
+  position: absolute;
+  background: #FFC9DE;
+  width: 500px;
+  height: 735px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50px;
+}
+.gatito img{
+  width: 200px;
+  height: auto;
+  /*me sube o baja la imagen*/
+  margin:200px;
+  position:absolute;
+  padding-top:77.5%;
+  /* el px los desplaza a la derecha o a la izquierda*/
+  left:calc(50% - 290px);
+}
+.gatito p{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.gatito a{
+text-decoration: none;
+font-size:15px;
+line-height: 28px ;
+color: #6bbe36;
+}
+/*cambia el color cuando pasas el cursor*/
+.gatito a:hover{
+  color:#e5630e;
+}
