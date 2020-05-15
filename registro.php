@@ -6,20 +6,24 @@
   $usuario=$_POST['user'];
   $contraseña=$_POST['pass'];
   //Realizando consulta de datos
-  $consulta = "select * from `datos` where Usuario='$usuario'";
+  $consulta = "select * from `Alumno` where Clave='$usuario'";
   $resultado=mysqli_query($con, $consulta);
   //Validando datos
   $filas=mysqli_num_rows($resultado);
   if($filas>0)
   {
-    header("location:bienvenido.html");
+    echo "<h2>El Usuario ya existe</h2>";
+    header("refresh:3;url=registro.html");
   }
   else
   {
-    $consulta = "INSERT datos VALUES ($usuario, $contraseña)";
+    $consulta = "INSERT INTO `Alumno` (`Clave`, `Contra`) VALUES ('$usuario','$contraseña')";
     mysqli_query($con, $consulta);
+    echo "<h1>Bienvenido</h1>";
+    mysqli_close($con);
+    header("refresh:3;url=EstoEsKreddu.html");
+
   }
-  mysqli_free_result($resultado);
-  mysqli_close($con);
+
 
   ?>
