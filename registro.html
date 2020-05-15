@@ -1,4 +1,4 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <!--utilizar distintos caracteres,emoticones,simbolos,etc-->
@@ -13,17 +13,13 @@
 <div class="login-box">
   <img class="avatar" src="img/KREDDU2.png" alt="Logo kreddu">
   <h1>Registrate</h1>
-  <form>
+  <form action="registro.php" method="post">
     <!--Nombre-->
     <label for="username">Usuario</label>
-    <input type="text" placeholder="Nombre">
-    <!--Apellidos-->
-    <label for="username">Apellidos</label>
-    <input type="text" placeholder="Apellidos">
-
+    <input type="text" placeholder="Nombre" name="user">
     <!--pasword-->
     <label for="password">Contraseña</label>
-    <input type="password" placeholder="Nombre de tu mascota">
+    <input type="password" placeholder="Nombre de tu mascota" name="pass">
     <input type="submit" value="ACEPTAR">
     <a href="index.html">Iniciar sesión</a></br>
   </form>

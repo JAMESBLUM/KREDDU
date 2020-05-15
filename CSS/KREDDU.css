@@ -1,81 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+*{margin:0; padding: 0;}
 body{
-  margin:0px;
-  padding:0px;
-  font-family: verdana;
-  background: #ccedff;
-  overflow:hidden;
+  background: #97e5ef;
+  font-family: 'Play', sans-serif;
 }
-.pollito .frito td{
- text-align: center;
+h1{font-family: 'Passion One', cursive;}
+/*---------------------HEADER---------------------*/
+header{
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  background: #f78259;
 }
-/*COLOR DE FONDO ROSA*/
-.pollito{
- width: 250px;
- height: 790px;
- background:#ffccfd ;
- border-radius: 10px;
+h1.logo{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 50px;
+  letter-spacing: 5px;
 }
-/*Filas MATERIAS*/
-.pollito tr{
+img.logo{
+  margin-left: 250px;
+  margin-top:-70px;
   width: auto;
-  height: 75px
+  height: 100px;
 }
-/*Celda MATERIAs*/
-.pollito td{
-  font-size: 35px;
-  border-color:#ffccfd;
-  width: 250px;
-  height: 900px:
+div.configuracion,img.engrane{
+  position: absolute;
+  width: auto;
+  height: 50px;
+  left: 95%;
+  top:20px;
 }
-/*Alinea las materias al centro*/
-.pollito .mexicana{
+.nav{
+  position: absolute;
+  top:100px;
+  left: 0;
+}
+div.table,table.tabla{
+  position: absolute;
+  left: 20px;
+  top: 70px;
+  background:#f78259;
+  border-radius: 10px;
   text-align: center;
 }
-.pollito .mexicana td{
-  font-size: 50px;
-}
-.pollito a{
-  text-decoration: none;
-  font-size:15px;
-  line-height: 28px ;
-  color: #80a000;
-}
-.pollito a:hover{
-  color:#afdb00;
-}
-/*Padding me ayuda a acomodar el objeto, el 50% lo pone en el centro*/
-.pollito iframe{
-  margin:35px;
-  width: 700px;
-  height: 455px;
-  position: absolute;
-  left: calc(27% + 50px);
-}
-.pollito h1{
-  /*le agrego un margen al encabezado*/
-  margin:-250px;
-  position:absolute;
-  padding-top:-50%;
-  text-align:justify;
-  font-size:30px;
-  /* el px los desplaza a la derecha o a la izquierda*/
-  left:calc(36% + 400px);
-}
-.pollito p{
-  /*me sube o baja el texto*/
-  margin:-200px;
-  position:absolute;
-  padding-top:-50%;
-  text-align:justify;
-  font-size:25px;
-  /* el px los desplaza a la derecha o a la izquierda*/
-  left:calc(30% + 90px);
+td{
+  height: 55px;
+  width: 70px;
 }
 
-.pollito .Naranja img{
-  margin:-700px;
- width: 160px;
- height: auto;
- position:absolute;
- left:calc(86% + 700px);
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
+a:hover{
+  color:#633a82;
+}
+.select{
+  background: #ffd868;
+  color: #633a82;
+  border-radius: 55px;
+  font-size: 20px;
+}
+.wrapper{
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 50px;
+  margin:auto;
+  overflow: hidden;
+}
+section.contenido{
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 50px;
+  margin:auto;
+  overflow: hidden;
+}
+/*---------------------FIN HEADER---------------------*/
