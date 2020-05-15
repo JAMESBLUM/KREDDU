@@ -12,6 +12,7 @@
   $filas=mysqli_num_rows($resultado);
   if($filas>0)
   {
+    echo "<h2> Bienvenido </h2>"
     header("refresh:5;url=EstoEsKreddu.html");
   }
   else
