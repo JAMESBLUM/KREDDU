@@ -1,0 +1,12 @@
+.respuesta{
+  width: 60%;
+  background:#b4f2e1;
+}
+.pregunta{
+  font-size: 20px;
+}
+.oficina{
+  position: absolute;
+  left: 65%;
+  top: 42%;
+}

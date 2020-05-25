@@ -4,7 +4,7 @@ $con=conectar();
 
 echo "Se realizo la coneccion";
 
-$consulta = "select * from `datos`";
+$consulta = "select * from `Alumno`";
 $resultado = mysqli_query( $con, $consulta ) or die ( "Algo ha ido mal en la consulta a la base de datos");
 
 	// Motrar el resultado de los registro de la base de datos
@@ -19,7 +19,7 @@ $resultado = mysqli_query( $con, $consulta ) or die ( "Algo ha ido mal en la con
 	while ($columna = mysqli_fetch_array( $resultado ))
 	{
 		echo "<tr>";
-		echo "<td>" . $columna['Usuario'] . "</td><td>" . $columna['Contraseña'] . "</td>";
+		echo "<td>" . $columna['Clave'] . "</td><td>" . $columna['Contra'] . "</td>";
 		echo "</tr>";
 	}
 

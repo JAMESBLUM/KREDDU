@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <script type="text/javascript">
+    var abeja = new Audio();
+    var elefant= new Audio();
+    var snake= new Audio();
+    var aguila=new Audio();
+    abeja.src="img/sounds/Abeja.mp3";
+    elefant.src="img/sounds/elefante.mp3";
+    snake.src="img/sounds/serpiente.mp3";
+    aguila.src="img/sounds/aguila.mp3";
+  </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content"text/html" charset="utf-8">
+    <title>ESPAÑOL</title>
+    <link rel="stylesheet" href="CSS/KREDDU.css">
+    <link rel="stylesheet" href="CSS/animal.css">
+  </head>
+<body>
+    <!--HEADER-->
+    <header class="header">
+      <h1 class="logo">KREDDU</h1>
+      <img src="img/KREDDU.png" alt="" class="logo">
+      <div class="configuracion">
+      <a href="configuracion.html"><img src="img/Engrane.png" alt="" class="engrane"></a>
+      </div>
+    </header>
+    <!--FIN HEADER-->
+
+  <!--CONTENIDO-->
+    <br><br>
+    <div class="contenido wrapper">
+      <div class="Instrucciones">
+        <h4 class="Instrucciones">¿QUE ANIMAL ES?</h4>
+        <p class="Instrucciones">¿Sabes el nombre del animal? escribe su nombre en el recuardo de color.<br>Algunos animales cuentan con sonido, da click en el animal y descubre que sonido hace.</p>
+      </div>
+      <br><br><br><br>
+      <div class="ejercicio">
+        <table>
+        <tr>
+          <td class="cajita">
+            <nav>
+              <a href="#" onmousedown="abeja.play()"><img src="img/Animales/abeja.png" alt="" class="abeja animal"></a>
+            </nav>
+          </td>
+          <td class="cajita"><input type="text" name="" value="" class="input" ></td>
+          <td class="cajita"><img src="img/Animales/tortuga.png" alt="" class="tortuga animal"></td>
+          <td><input type="text" name="" value="" class="input" ></td>
+        </tr>
+        <tr>
+          <td class="cajita">
+            <nav>
+              <a href="#" onmousedown="aguila.play()"><img src="img/Animales/aguila.png" alt="" class="aguila animal"></a>
+            </nav>
+          </td>
+          <td class="cajita"><input type="text" name="" value="" class="input" ></td>
+          <td class="cajita"><img src="img/Animales/pez.png" alt="" class="pez animal"></td>
+          <td><input type="text" name="" value="" class="input" ></td>
+        </tr>
+        <tr>
+          <td class="cajita"><img src="img/Animales/camello.png" alt="" class="camello animal"></td>
+          <td class="cajita"><input type="text" name="" value="" class="input" ></td>
+          <td class="cajita">
+            <nav>
+              <a href="#" onmousedown="snake.play()"><img src="img/Animales/serpiente.png" alt="" class="serpiente animal"></a>
+            </nav>
+          </td>
+          <td><input type="text" name="" value="" class="input" ></td>
+        </tr>
+        <tr>
+          <td class="cajita">
+            <nav>
+              <a href="#" onmousedown="elefant.play()"><img src="img/Animales/elefante.png" alt="" class="elefante animal"></a>
+            </nav>
+          </td>
+          <td class="cajita"><input type="text" name="" value="" class="input" ></td>
+          <td class="cajita"><img src="img/Animales/escorpion.png" alt="" class="escorpion animal"></td>
+          <td><input type="text" name="" value="" class="input" ></td>
+        </tr>
+        </table>
+      </div>
+    </div>
+    <div class="home wrapper">
+    <a href="Espanol.html"><img src="img/Home.png" alt="" class="homeIcon"></a>
+    </div>
+  </body>
+  </html>

@@ -1,0 +1,47 @@
+p.Instrucciones{
+  font-size: 20px;
+}
+h4.Instrucciones{
+  font-size: 30px;
+}
+p.fabula{
+  font-size: 20px;
+}
+img.Oso{
+  position: absolute;
+  width: auto;
+  height: 300px;
+  left: 60%;
+  top: 38%;
+}
+textarea.bloc{
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  background: #FFFFD1;
+}
+img.homeIcon{
+  width: auto;
+  height: 70px;
+  position: absolute;
+  left: 47%;
+}
+img.sonriente{
+  position: absolute;
+  height: auto;
+  width: 250px;
+  top:105%;
+  left:75%;
+}
+.caperucita{
+  position: relative;
+  width: auto;
+  height: 300px;
+  left: 30%;
+}
+.patito{
+  position: relative;
+  width: auto;
+  height: 300px;
+  left: 39%;
+}

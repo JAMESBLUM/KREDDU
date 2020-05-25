@@ -2,7 +2,7 @@
 <html lang="es"> <!--Indica que la pagina esta en español-->
 <head>
     <!--utilizar distintos caracteres,emoticones,simbolos,etc-->
-    <meta charset="utf-8">
+    <meta http-equiv="content-type" content"text/html" charset="utf-8">
   <title>KREDDU</title>
   <!--La etiqueta meta nos ayuda a poner descripcion de nuestro citio web-->
   <meta name="description" content="Esto es kreddu, educacion en linea"/>
@@ -11,24 +11,11 @@
   <link rel="stylesheet" href="css/master.css">
   </head>
 <body>
-  <video src="video/spaceWeb.mp4"
-  type="video/mp4"
-  crossorigin="anonymous"
-  autoplay
-  loop
-  muted
-  playsinline>
+  <video src="video/spaceWeb.mp4" autoplay
+  type="video/mp4"  loop muted>
   </video>
-  <style>
-  video{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  </style>
 <div class="login-box">
-  <img class="avatar" src="img/KREDDU2.png" alt="Logo kreddu">
+  <img class="avatar" src="img/KREDDU2.png" alt="Logo de kreddu" width="160" height="140"/>
   <h1>Iniciar sesión</h1>
   <form action="validar.php" method="post">
     <!--USERNAME-->
@@ -41,7 +28,6 @@
     <input type="submit" value="LOGIN">
     <a href="registro.html">Registrarse</a></br>
     <a href="olvidar.html">¿Olvidaste tu contaseña?</a>
-
   </form>
  </div>
   </body>

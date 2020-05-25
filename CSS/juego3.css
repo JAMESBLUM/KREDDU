@@ -1,0 +1,18 @@
+.pez{
+  height: auto;
+  width: 200px;
+}
+.answer{
+  border: none;
+  background:#7a4d1d;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+.check{
+  width: 200px;
+  height: auto;
+}
+.zoom:hover{
+  transform: scale(1.2);
+}

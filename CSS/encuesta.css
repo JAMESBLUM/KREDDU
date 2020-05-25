@@ -1,0 +1,37 @@
+ul.Instrucciones{
+  font-size: 20px;
+}
+p.perrito{
+  font-size: 25px;
+}
+input.space{
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  height: 25px;
+  width: 100px;
+  background: #fbcffc;
+}
+.space2{
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  background: #fbcffc;
+}
+.space3{
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  width:565px;
+  font-size: 20px;
+  background: #fbcffc;
+}
+.cuadro{
+  position:absolute;
+  width: auto;
+  height: 300px;
+  left:75%;
+  top: 58%;
+}

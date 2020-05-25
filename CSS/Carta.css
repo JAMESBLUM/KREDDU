@@ -1,0 +1,39 @@
+p.Instrucciones{
+  font-size: 20px;
+}
+h4.Instrucciones{
+  font-size: 30px;
+}
+img.ImgCarta{
+  position: absolute;
+  left: 22%;
+  height: auto;
+  width: 800PX;
+  border-radius: 20px;
+  z-index: -1000;
+}
+p.ContCarta{
+  position: absolute;
+  font-size: 23px;
+  left: 28%;
+  top:55%;
+}
+input.letra{
+  width: 20px;
+  text-align: center;
+  background-color: #FFFFD1;
+}
+img.libros{
+  position: absolute;
+  left: 39%;
+  top:105%;
+  width: auto;
+  height: 400px;
+}
+img.homeIcon{
+  width: auto;
+  height: 70px;
+  position: absolute;
+  left: 45%;
+  top:160%;
+}

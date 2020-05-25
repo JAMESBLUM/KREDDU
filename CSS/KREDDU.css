@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+*{margin:0; padding: 0;}
+body{
+  background: #97e5ef;
+  font-family: 'Play', sans-serif;
+}
+h1{font-family: 'Passion One', cursive;}
+/*---------------------HEADER---------------------*/
+header{
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  background: #f78259;
+}
+h1.logo{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+img.logo{
+  margin-left: 250px;
+  margin-top:-70px;
+  width: auto;
+  height: 100px;
+}
+div.configuracion,img.engrane{
+  position: absolute;
+  width: auto;
+  height: 50px;
+  left: 95%;
+  top:20px;
+}
+.nav{
+  position: absolute;
+  top:100px;
+  left: 0;
+}
+div.table,table.tabla{
+  position: absolute;
+  left: 20px;
+  top: 70px;
+  background:#f78259;
+  border-radius: 10px;
+  text-align: center;
+}
+td{
+  height: 55px;
+  width: 70px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover{
+  color:#633a82;
+}
+.select{
+  background: #ffd868;
+  color: #633a82;
+  border-radius: 55px;
+  font-size: 20px;
+}
+.wrapper{
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 50px;
+  margin:auto;
+  overflow: hidden;
+}
+section.contenido{
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 50px;
+  margin:auto;
+  overflow: hidden;
+}
+/*---------------------FIN HEADER---------------------*/
+.bienvenido{
+  font-size: 50px;
+}
+.kr{
+  position: relative;
+  left: 15%;
+  height: auto;
+  width: 700px;
+
+}
+.bienvenida{
+  text-align: justify;
+  font-size: 30px;
+}
+.bienvenida2{
+  text-align: center;
+  font-size: 30px;
+}
+.Bien{
+  height: auto;
+  width: 500px;
+}
