@@ -79,3 +79,25 @@ section.contenido{
   overflow: hidden;
 }
 /*---------------------FIN HEADER---------------------*/
+.bienvenido{
+  font-size: 50px;
+}
+.kr{
+  position: relative;
+  left: 15%;
+  height: auto;
+  width: 700px;
+
+}
+.bienvenida{
+  text-align: justify;
+  font-size: 30px;
+}
+.bienvenida2{
+  text-align: center;
+  font-size: 30px;
+}
+.Bien{
+  height: auto;
+  width: 500px;
+}

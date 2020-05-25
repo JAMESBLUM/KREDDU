@@ -1,0 +1,95 @@
+img.fondo{
+  background-image: url(fondo.jpg);
+  width: 100%;
+}
+/*---------------------PLANETAS---------------------*/
+img.Sun{
+  position: absolute;
+  width: 500px;
+  height: auto;
+  top:50%;
+  left:-20%;
+}
+img.Mercurio{
+  position: absolute;
+  width: 70px;
+  height: auto;
+  top:78%;
+  left: 16%;
+}
+img.Venus{
+  position: absolute;
+  width: 100px;
+  height: auto;
+  top:76%;
+  left: 22.5%;
+}
+img.Tierra{
+  position: absolute;
+  width: 109px;
+  height: auto;
+  top:75%;
+  left: 31%;
+}
+img.Marte{
+  position: absolute;
+  width: 100px;
+  height: auto;
+  top:76%;
+  left: 40%;
+}
+img.Jupiter{
+  position: absolute;
+  width: 155px;
+  height: auto;
+  top:71%;
+  left: 49%;
+}
+img.Saturno{
+  position: absolute;
+  width: 140px;
+  height: auto;
+  top:75%;
+  left: 61%;
+}
+img.Urano{
+  position: absolute;
+  width: 100px;
+  height: auto;
+  top:78%;
+  left:72%;
+}
+img.Neptuno{
+  position: absolute;
+  width: 120px;
+  height: auto;
+  top:76%;
+  left:79.5%;
+}
+
+img.Pluton{
+  position: absolute;
+  width: 50px;
+  height: auto;
+  top:82%;
+  left:90%;
+}
+/*TITULO*/
+h4{
+  position: absolute;
+  color: white;
+  font-size: 60px;
+  top: 30%;
+  left:35%;
+}
+/*ZOOM EN EL PLANETA*/
+.zoom:hover{
+  transform: scale(1.2);
+}
+img.homeIcon{
+  width: auto;
+  height: 70px;
+  position: absolute;
+  left: 45%;
+  top:133%;
+}

@@ -1,0 +1,27 @@
+ul.partes{
+  position: relative;
+  left: 10%;
+  font-size: 20px;
+}
+img.ejemplo1{
+  position: relative;
+  height: 200px;
+  width: auto;
+  left: 30%;
+}
+.pasos{
+  position: relative;
+  left: 30%;
+  width: 150px;
+  height: auto;
+}
+.pasos2{
+  position: relative;
+  left: 30%;
+  width: 300px;
+  height: auto;
+}
+img.ejemplo2{
+  position: relative;
+  left: 30%;
+}

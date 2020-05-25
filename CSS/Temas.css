@@ -1,0 +1,37 @@
+img.homeIcon{
+  width: auto;
+  height: 70px;
+  position: relative;
+  left: 50%;
+  top:85%;
+}
+img.microscopio{
+  position: absolute;
+  width: auto;
+  height: 80px;
+  left: 50%;
+  top: 3%;
+}
+/*--------------------------------MATERIAS--------------------------------*/
+h4{
+  font-size: 30px;
+}
+table.contenedor_temas{
+  text-align: center;
+  font-size: 20px;
+
+}
+td.fondo_tema{
+  background: #a7e9af;
+  border-radius: 25px;
+}
+a.tema{
+  color: #b21f66;
+}
+a.tema:hover{
+  color: #f65c78;
+}
+.mate{
+  position: absolute;
+  top: 20%;
+}

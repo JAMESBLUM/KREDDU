@@ -1,0 +1,15 @@
+.figura{
+  position:relative;
+  left: 30%;
+  transition:1s;
+}
+.zoom:hover{
+  transform: scale(1.5);
+}
+.giro:hover{
+  transform: rotate(180deg);
+}
+.Angulos{
+  position: relative;
+  left: 15%;
+}

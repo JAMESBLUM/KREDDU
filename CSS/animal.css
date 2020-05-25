@@ -1,0 +1,25 @@
+p.Instrucciones{
+  font-size: 20px;
+}
+h4.Instrucciones{
+  font-size: 30px;
+}
+img.animal{
+  height: auto;
+  width: 200px;
+}
+.input{
+  background: #f3d1f4;
+  border-radius: 10px;
+  text-align: center;
+}
+.cajita{
+  width: 300px;
+}
+
+.homeIcon{
+  width: auto;
+  height: 70px;
+  position: absolute;
+  left: 47%;
+}

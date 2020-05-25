@@ -1,0 +1,34 @@
+h4.titulo{
+  font-size: 25px;
+}
+p.instruccion{
+  font-size: 20px;
+}
+textarea{
+  font-family: sans-serif;
+  border-radius: 10px;
+  background: #FFFFD1;
+  width: 80%;
+  height: 20%;
+  font-size: 20px;
+  text-align: justify;
+}
+input.yes{
+  background: green;
+  border-radius: 5px;
+}
+img.homeIcon{
+  width: auto;
+  height: 70px;
+  position: absolute;
+  left: 45%;
+}
+img.juego{
+  width: auto;
+  height: 250px;
+  position: absolute;
+  left: 68%;
+  top: 80%;
+}
+table{
+}

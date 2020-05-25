@@ -12,13 +12,13 @@
   $filas=mysqli_num_rows($resultado);
   if($filas>0)
   {
-    echo "<h2> Bienvenido </h2>"
-    header("refresh:5;url=EstoEsKreddu.html");
+    echo "<h1><center><br><br>Bienvenido</center></h1>";
+    header("refresh:3;url=EstoEsKreddu.html");
   }
   else
   {
-    echo "Usuario y/o contraseña equivocados";
-    header("refresh:5;url=index.html");
+    echo "<h1><center><br><br>Contraseña y/o Usuario equivocados</center></h1>";
+    header("refresh:3;url=index.html");
   }
   mysqli_free_result($resultado);
   mysqli_close($con);
